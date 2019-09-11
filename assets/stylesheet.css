@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "libel";
+  
+  //nom de la police:
+  src: url("libel-suit-rg.ttf")  format("truetype")
+    
+}
+
+body {
+    margin: 0;
+  
+    //nom de l'image de fond:
+    background-image: url("home1.jpg");
+  
+    color: white
+}
+
+#center {
+    width: 550px;
+    height: 360px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#title {
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+h1 {
+    font-family: "libel";
+    font-weight: 100;
+    font-size: 8em;
+    margin: auto;
+}
+
+input {
+    font-family: Trebuchet, sans;
+    font-weight: 100;
+    font-size: 1.2em;
+    background-color: #363a40;
+    color: white;
+    height: 2.5em;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 0;
+}
