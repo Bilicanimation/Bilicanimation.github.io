@@ -1,7 +1,7 @@
 @font-face {
   font-family: "libel";
   
-  //nom de la police:
+  /*nom de la police:*/
   src: url("libel-suit-rg.ttf")  format("truetype")
     
 }
@@ -9,7 +9,7 @@
 body {
     margin: 0;
   
-    //nom de l'image de fond:
+    /*nom de l'image de fond:*/
     background-image: url("home1.jpg");
   
     color: white
