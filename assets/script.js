@@ -1,4 +1,5 @@
 let input = document.getElementsByTagName("input")[0];
+
 input.addEventListener('keypress', function (e) {
     let key = e.which || e.keyCode;
     if (key === 13) {
@@ -6,3 +7,5 @@ input.addEventListener('keypress', function (e) {
         location = "https://www.google.com/search?client=firefox-b-d&q=" + search;
     }
 });
+
+document.getElementsByTagName("img")[0].ondragstart = function() {return false;};
