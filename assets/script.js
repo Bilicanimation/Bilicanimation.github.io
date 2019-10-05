@@ -8,4 +8,18 @@ input.addEventListener('keypress', function (e) {
     }
 });
 
-document.getElementsByTagName("img")[0].ondragstart = function() {return false;};
+//document.getElementsByTagName("img")[0].ondragstart = function() {return false;};
+
+//regulating background image size and position
+let body = document.getElementsByTagName("body")[0]
+let width = window.screen.width
+body.style["background-size"] = String(width) + "px"
+
+body.style["background-position-x"] = String((body.offsetWidth - width)/2) + "px"
+window.onresize = function() {
+    body.style["background-position-x"] = String((body.offsetWidth - width)/2) + "px"
+    body.style["background-size"] = String(width) + "px"
+}
+
+//input position
+input.style["margin-top"] = width/5 + 100
