@@ -1,10 +1,11 @@
+/*
 @font-face {
   font-family: "libel";
   
-  /*nom de la police:*/
   src: url("libel-suit-rg.ttf")  format("truetype")
     
 }
+*/
 
 body {
     margin: 0;
@@ -27,6 +28,7 @@ body {
 }
 
 #title {
+    display: hidden;
     user-select: none;
     height: 30%;
     display: flex;
@@ -43,7 +45,7 @@ img {
 }
 
 h1 {
-    font-family: "libel";
+    /*font-family: "libel";*/
     font-weight: 100;
     font-size: 8em;
     margin: auto;
