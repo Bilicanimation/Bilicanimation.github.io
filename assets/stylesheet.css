@@ -11,7 +11,7 @@ body {
   
     /*nom de l'image de fond:*/
     background-image: url("google.png");
-    object-fit: cover;
+    background-size: cover;
   
     color: white
 }
