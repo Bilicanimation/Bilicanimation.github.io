@@ -18,7 +18,6 @@ body.style["background-size"] = String(width) + "px"
 body.style["background-position-x"] = String((body.offsetWidth - width)/2) + "px"
 window.onresize = function() {
     body.style["background-position-x"] = String((body.offsetWidth - width)/2) + "px"
-    body.style["background-size"] = String(width) + "px"
 }
 
 //input position
