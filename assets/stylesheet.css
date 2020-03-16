@@ -30,7 +30,7 @@ body {
 #title {
     display: none;
     user-select: none;
-    height: 20%;
+    height: 60%;
     display: flex;
     justify-content: space-around;
     padding-left: 10%;
