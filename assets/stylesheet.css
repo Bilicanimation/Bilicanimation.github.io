@@ -68,10 +68,10 @@ input {
 }
 
 input::placeholder {
-    color: #8affed;
+    color: #57181e;
 }
 
 input:focus {
     outline: none;
-    box-shadow: 0 0 3px 1px #8affed;
+    box-shadow: 0 0 3px 1px #57181e;
 }
